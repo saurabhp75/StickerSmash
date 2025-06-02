@@ -1,3 +1,4 @@
+import ImageViewer from "@/components/ImageViewer";
 import { Image } from "expo-image";
 import { StyleSheet, View } from "react-native";
 
@@ -7,7 +8,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
-        <Image source={PlaceholderImage} style={styles.image} />
+        <ImageViewer imgSource={PlaceholderImage} />
       </View>
     </View>
   );
