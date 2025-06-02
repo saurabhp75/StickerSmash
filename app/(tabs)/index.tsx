@@ -1,7 +1,8 @@
+import domtoimage from "dom-to-image";
 import * as ImagePicker from "expo-image-picker";
 import * as MediaLibrary from "expo-media-library";
 import { useEffect, useRef, useState } from "react";
-import { ImageSourcePropType, StyleSheet, View } from "react-native";
+import { ImageSourcePropType, Platform, StyleSheet, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { captureRef } from "react-native-view-shot";
 
@@ -62,37 +63,35 @@ export default function Index() {
   };
 
   const onSaveImageAsync = async () => {
-    // Check if we have media library permissions
-    if (!permissionResponse?.granted) {
-      // If permissions aren't granted yet, request them
-      const { granted } = await requestPermission();
-      if (!granted) {
-        alert("We need permission to save the image to your library");
-        return;
+    if (Platform.OS !== "web") {
+      try {
+        const localUri = await captureRef(imageRef, {
+          height: 440,
+          quality: 1,
+        });
+
+        await MediaLibrary.saveToLibraryAsync(localUri);
+        if (localUri) {
+          alert("Saved!");
+        }
+      } catch (e) {
+        console.log(e);
       }
-    }
+    } else {
+      try {
+        const dataUrl = await domtoimage.toJpeg(imageRef.current, {
+          quality: 0.95,
+          width: 320,
+          height: 440,
+        });
 
-    try {
-      // Make sure imageRef is properly set
-      if (!imageRef.current) {
-        console.log("Image reference is null");
-        return;
+        let link = document.createElement("a");
+        link.download = "sticker-smash.jpeg";
+        link.href = dataUrl;
+        link.click();
+      } catch (e) {
+        console.log(e);
       }
-
-      // Capture the view
-      const localUri = await captureRef(imageRef, {
-        height: 440,
-        quality: 1,
-      });
-
-      console.log("Captured image URI:", localUri);
-
-      // Save to media library
-      await MediaLibrary.saveToLibraryAsync(localUri);
-      alert("Saved!");
-    } catch (e: any) {
-      console.log("Error saving image:", e);
-      alert("Failed to save image: " + (e.message || "Unknown error"));
     }
   };
 
