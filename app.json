@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saurabhp75.StickerSmash",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow StickerSmash to access your photos so you can select images to customize and save created stickers to your photo library",
+        "NSPhotoLibraryAddUsageDescription": "Allow StickerSmash to save photos to your photo library"
+      }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.saurabhp75.StickerSmash"
     },
     "web": {
       "bundler": "metro",
@@ -33,10 +35,30 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you customize stickers."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow StickerSmash to save photos to your photo library.",
+          "savePhotosPermission": "Allow StickerSmash to save photos to your photo library."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fb0d08f7-3000-47a3-adbc-5825f4a4a1ef"
+      }
+    },
+    "owner": "saurabhp75"
   }
 }
