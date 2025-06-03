@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B85416956384983120F549 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E9EC3C6F2458EBDA1AC50BB7 /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3D73EEEC9C3E718E91751CE5 /* libPods-StickerSmash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 684C9910A45D25E959756C17 /* libPods-StickerSmash.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		6BB76414613156C0CCB75E90 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549EC1E91E21345EBD2093F /* ExpoModulesProvider.swift */; };
-		B0FD12743FA37E94BD636191 /* libPods-StickerSmash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7755D91BC27DBD251FCDB86F /* libPods-StickerSmash.a */; };
+		80743ABB6594C0F19ABF7B0A /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C88366264BD933162E480B /* ExpoModulesProvider.swift */; };
+		8CEA5C81D08C88BB0FA0CB5B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5778D0787BDE979B5910583C /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02F6702C73F7F0EF299B5CED /* Pods-StickerSmash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerSmash.debug.xcconfig"; path = "Target Support Files/Pods-StickerSmash/Pods-StickerSmash.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* StickerSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StickerSmash/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StickerSmash/Info.plist; sourceTree = "<group>"; };
-		3549EC1E91E21345EBD2093F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-StickerSmash/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		7755D91BC27DBD251FCDB86F /* libPods-StickerSmash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StickerSmash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		953B6F4B2F5B969D6727C542 /* Pods-StickerSmash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerSmash.release.xcconfig"; path = "Target Support Files/Pods-StickerSmash/Pods-StickerSmash.release.xcconfig"; sourceTree = "<group>"; };
+		30C88366264BD933162E480B /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-StickerSmash/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		5778D0787BDE979B5910583C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = StickerSmash/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		684C9910A45D25E959756C17 /* libPods-StickerSmash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StickerSmash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = StickerSmash/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		E9EC3C6F2458EBDA1AC50BB7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = StickerSmash/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E3F4D1E882BF945F22692CBC /* Pods-StickerSmash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerSmash.debug.xcconfig"; path = "Target Support Files/Pods-StickerSmash/Pods-StickerSmash.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = StickerSmash/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* StickerSmash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StickerSmash-Bridging-Header.h"; path = "StickerSmash/StickerSmash-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8415144903D5C00B4124E51 /* Pods-StickerSmash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerSmash.release.xcconfig"; path = "Target Support Files/Pods-StickerSmash/Pods-StickerSmash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FD12743FA37E94BD636191 /* libPods-StickerSmash.a in Frameworks */,
+				3D73EEEC9C3E718E91751CE5 /* libPods-StickerSmash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,44 +53,44 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				E9EC3C6F2458EBDA1AC50BB7 /* PrivacyInfo.xcprivacy */,
+				5778D0787BDE979B5910583C /* PrivacyInfo.xcprivacy */,
 			);
 			name = StickerSmash;
+			sourceTree = "<group>";
+		};
+		19C423109B5C86763105B567 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4D1E882BF945F22692CBC /* Pods-StickerSmash.debug.xcconfig */,
+				F8415144903D5C00B4124E51 /* Pods-StickerSmash.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7755D91BC27DBD251FCDB86F /* libPods-StickerSmash.a */,
+				684C9910A45D25E959756C17 /* libPods-StickerSmash.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5FEAA4D0634E9458B2D8115A /* StickerSmash */ = {
+		2EBD50222219C5C47E72D0B0 /* StickerSmash */ = {
 			isa = PBXGroup;
 			children = (
-				3549EC1E91E21345EBD2093F /* ExpoModulesProvider.swift */,
+				30C88366264BD933162E480B /* ExpoModulesProvider.swift */,
 			);
 			name = StickerSmash;
 			sourceTree = "<group>";
 		};
-		717C7D3F329D157DC1A48D8C /* ExpoModulesProviders */ = {
+		6BE8E613E404102E655EB8FB /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				5FEAA4D0634E9458B2D8115A /* StickerSmash */,
+				2EBD50222219C5C47E72D0B0 /* StickerSmash */,
 			);
 			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		718A634780F3F3FBFF1727FE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02F6702C73F7F0EF299B5CED /* Pods-StickerSmash.debug.xcconfig */,
-				953B6F4B2F5B969D6727C542 /* Pods-StickerSmash.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -107,8 +107,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				718A634780F3F3FBFF1727FE /* Pods */,
-				717C7D3F329D157DC1A48D8C /* ExpoModulesProviders */,
+				19C423109B5C86763105B567 /* Pods */,
+				6BE8E613E404102E655EB8FB /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StickerSmash" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				76C14845064CA8F347B914EF /* [Expo] Configure project */,
+				1838E21314AA6AB4AB6AACAF /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				307B7FD3A57A28557292C83E /* [CP] Embed Pods Frameworks */,
+				0C666DABCAB99BD1B9163037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				04B85416956384983120F549 /* PrivacyInfo.xcprivacy in Resources */,
+				8CEA5C81D08C88BB0FA0CB5B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		307B7FD3A57A28557292C83E /* [CP] Embed Pods Frameworks */ = {
+		0C666DABCAB99BD1B9163037 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +258,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StickerSmash/Pods-StickerSmash-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76C14845064CA8F347B914EF /* [Expo] Configure project */ = {
+		1838E21314AA6AB4AB6AACAF /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				6BB76414613156C0CCB75E90 /* ExpoModulesProvider.swift in Sources */,
+				80743ABB6594C0F19ABF7B0A /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F6702C73F7F0EF299B5CED /* Pods-StickerSmash.debug.xcconfig */;
+			baseConfigurationReference = E3F4D1E882BF945F22692CBC /* Pods-StickerSmash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -372,7 +372,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 953B6F4B2F5B969D6727C542 /* Pods-StickerSmash.release.xcconfig */;
+			baseConfigurationReference = F8415144903D5C00B4124E51 /* Pods-StickerSmash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
